@@ -1,0 +1,42 @@
+[
+    {
+        "TaskId": 1,
+        "TaskName": "First Task",
+        "ParentTaskName": "First ParentTaskName",
+        "Priority": 2,
+        "StartDate": "2015-03-25",
+        "EndDate": "03/25/2018"
+    },
+    {
+        "TaskId": 2,
+        "TaskName": "Second Task",
+        "ParentTaskName": "",
+        "Priority": 5,
+        "StartDate": "2017-03-25",
+        "EndDate": "03/25/2018"
+    },
+    {
+        "TaskId": 3,
+        "TaskName": "custom one",
+        "ParentTaskName": "here too a custom",
+        "Priority": 20,
+        "StartDate": "03/25/2017",
+        "EndDate": "03/25/2018"
+    },
+    {
+        "TaskId": 4,
+        "TaskName": "template name",
+        "ParentTaskName": "Third ParentTaskName -  delete me to test",
+        "Priority": 25,
+        "StartDate": "2015-03-25",
+        "EndDate": "03/25/2018"
+    },
+    {
+        "TaskId": 5,
+        "TaskName": "just another task",
+        "ParentTaskName": "have 2 ParentTaskNames - father n mother",
+        "Priority": 10,
+        "StartDate": "2015-03-25",
+        "EndDate": "2017-03-17"
+    }
+]

@@ -1,0 +1,47 @@
+<br>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1">
+      <label>Task:</label>
+    </div>
+    <div class="col-md-5">
+      <input class="greyback" type="text"  size="50"  [(ngModel)]="taskFilter.TaskName">
+    </div>
+    <div class="col-md-1">
+      <label>ParentTaskName Task:</label>
+    </div>
+    <div class="col-md-5">
+      <input class="greyback" type="text" size="50" [(ngModel)]="taskFilter.ParentTaskName">
+    </div>
+  </div>
+<br>
+    <div class="row rt-mar-10">
+        <div class="col">
+            <label>Priority From:</label>
+        </div>
+        <div class="col">
+            <input class="greyback" id="PriorityFrom-search" [(ngModel)] = "taskFilter.PriorityFrom" />
+        </div>
+        <div class="col">
+            <label >Priority To:</label>
+        </div>
+        <div class="col">
+            <input class="greyback" id="PriorityTo-search" [(ngModel)] = "taskFilter.PriorityTo"/>
+        </div>
+        <div class="col">
+            <label>Start Date:</label>
+        </div>
+        <div class="col">
+            <input class ="greyback" type="text" id="StartDate-search" [(ngModel)] = "taskFilter.StartDate" bsDatepicker />      
+        </div>
+        <div class="col">
+            <label>End Date:</label>
+        </div>
+        <div class="col">
+            <input type = "text"class=" greyback" id="EndDate-search" [(ngModel)] = "taskFilter.EndDate" bsDatepicker/>
+        </div>
+    </div>
+  </div>
+       
+ 
+    <hr class="dotted" />
